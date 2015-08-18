@@ -15,4 +15,5 @@ class Model: NSObject {
     var desc  = String();
     
     var Fruit : NSArray = NSArray()
+    
 }
