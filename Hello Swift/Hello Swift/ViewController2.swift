@@ -28,7 +28,7 @@ class ViewController2: UIViewController,UITableViewDataSource,UITableViewDelegat
         self.view.backgroundColor = UIColor.orangeColor()
         // Do any additional setup after loading the view.
         
-        self.makeNav()
+         makeNav()
         
         
 //        let zzTableView = UITableView(frame: self.view.bounds, style: UITableViewStyle.Plain)
