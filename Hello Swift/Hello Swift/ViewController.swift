@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
 
-    var dataList = ["列表展示(Header Footer)","tableView操作(插入,增加)","ScrollView","LOL _ Heros ","列表展示","列表展示"]
+    var dataList = ["列表展示(Header Footer)","tableView操作(插入,增加)","ScrollView","LOL _ Heros ","团购 XIB ","列表展示"]
     
     
     
@@ -83,6 +83,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                 let vc4 = ViewController4();
                 
                 self.navigationController?.pushViewController(vc4, animated: true)
+            
+            case 4 :
+                
+                println("...")
+                
+                let vc5 = ViewController5();
+                
+                self.navigationController?.pushViewController(vc5, animated: true)
             
         default: println("11")
         

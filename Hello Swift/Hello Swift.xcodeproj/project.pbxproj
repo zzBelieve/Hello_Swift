@@ -10,6 +10,11 @@
 		070D38981B845DEA0049A819 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D38971B845DEA0049A819 /* ViewController4.swift */; };
 		070D389A1B845F500049A819 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D38991B845F500049A819 /* HeroModel.swift */; };
 		070D389C1B845F720049A819 /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 070D389B1B845F720049A819 /* heros.plist */; };
+		0759E7561B859E5D00DEB7A3 /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0759E7551B859E5D00DEB7A3 /* tgs.plist */; };
+		0759E7581B859EC100DEB7A3 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759E7571B859EC100DEB7A3 /* ViewController5.swift */; };
+		0759E75A1B859F4700DEB7A3 /* ZZTgModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759E7591B859F4700DEB7A3 /* ZZTgModel.swift */; };
+		0759E75C1B85A24900DEB7A3 /* ZZTgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0759E75B1B85A24900DEB7A3 /* ZZTgCell.xib */; };
+		0759E75E1B85A47700DEB7A3 /* ZZTgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0759E75D1B85A47700DEB7A3 /* ZZTgCell.swift */; };
 		0777E7511B81AD7700154E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777E7501B81AD7700154E47 /* AppDelegate.swift */; };
 		0777E7531B81AD7700154E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777E7521B81AD7700154E47 /* ViewController.swift */; };
 		0777E7561B81AD7700154E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0777E7541B81AD7700154E47 /* Main.storyboard */; };
@@ -38,6 +43,11 @@
 		070D38971B845DEA0049A819 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		070D38991B845F500049A819 /* HeroModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
 		070D389B1B845F720049A819 /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
+		0759E7551B859E5D00DEB7A3 /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		0759E7571B859EC100DEB7A3 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		0759E7591B859F4700DEB7A3 /* ZZTgModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTgModel.swift; sourceTree = "<group>"; };
+		0759E75B1B85A24900DEB7A3 /* ZZTgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZTgCell.xib; sourceTree = "<group>"; };
+		0759E75D1B85A47700DEB7A3 /* ZZTgCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTgCell.swift; sourceTree = "<group>"; };
 		0777E74B1B81AD7700154E47 /* Hello Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0777E74F1B81AD7700154E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0777E7501B81AD7700154E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +113,10 @@
 				0777E77C1B81D05D00154E47 /* ViewController2.swift */,
 				07B7A51F1B83180B000B81B0 /* ViewController3.swift */,
 				070D38971B845DEA0049A819 /* ViewController4.swift */,
+				0759E7571B859EC100DEB7A3 /* ViewController5.swift */,
+				0759E7591B859F4700DEB7A3 /* ZZTgModel.swift */,
+				0759E75B1B85A24900DEB7A3 /* ZZTgCell.xib */,
+				0759E75D1B85A47700DEB7A3 /* ZZTgCell.swift */,
 				070D38991B845F500049A819 /* HeroModel.swift */,
 				0777E77A1B81C67D00154E47 /* Model.swift */,
 				0777E7541B81AD7700154E47 /* Main.storyboard */,
@@ -116,6 +130,7 @@
 		0777E74E1B81AD7700154E47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0759E7551B859E5D00DEB7A3 /* tgs.plist */,
 				070D389B1B845F720049A819 /* heros.plist */,
 				0777E74F1B81AD7700154E47 /* Info.plist */,
 			);
@@ -219,9 +234,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0759E7561B859E5D00DEB7A3 /* tgs.plist in Resources */,
 				0777E7561B81AD7700154E47 /* Main.storyboard in Resources */,
 				07B7A5231B8325FC000B81B0 /* 小黄人Love.jpg in Resources */,
 				070D389C1B845F720049A819 /* heros.plist in Resources */,
+				0759E75C1B85A24900DEB7A3 /* ZZTgCell.xib in Resources */,
 				0777E75B1B81AD7700154E47 /* LaunchScreen.xib in Resources */,
 				07B7A5241B8325FC000B81B0 /* 小黄人PP.jpg in Resources */,
 				0777E7581B81AD7700154E47 /* Images.xcassets in Resources */,
@@ -242,13 +259,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0759E75E1B85A47700DEB7A3 /* ZZTgCell.swift in Sources */,
 				0777E77D1B81D05D00154E47 /* ViewController2.swift in Sources */,
 				070D389A1B845F500049A819 /* HeroModel.swift in Sources */,
 				070D38981B845DEA0049A819 /* ViewController4.swift in Sources */,
 				0777E7791B81C66800154E47 /* ViewController1.swift in Sources */,
+				0759E7581B859EC100DEB7A3 /* ViewController5.swift in Sources */,
 				07B7A5201B83180B000B81B0 /* ViewController3.swift in Sources */,
 				0777E7531B81AD7700154E47 /* ViewController.swift in Sources */,
 				0777E7511B81AD7700154E47 /* AppDelegate.swift in Sources */,
+				0759E75A1B859F4700DEB7A3 /* ZZTgModel.swift in Sources */,
 				0777E77B1B81C67D00154E47 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
