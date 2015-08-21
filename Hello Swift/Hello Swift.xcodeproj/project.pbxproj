@@ -27,6 +27,12 @@
 		07B7A5201B83180B000B81B0 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B7A51F1B83180B000B81B0 /* ViewController3.swift */; };
 		07B7A5231B8325FC000B81B0 /* 小黄人Love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07B7A5211B8325FC000B81B0 /* 小黄人Love.jpg */; };
 		07B7A5241B8325FC000B81B0 /* 小黄人PP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07B7A5221B8325FC000B81B0 /* 小黄人PP.jpg */; };
+		07D1918B1B86EBC700F41B86 /* ZZTgFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D1918A1B86EBC700F41B86 /* ZZTgFooterView.xib */; };
+		07D191911B86EDCE00F41B86 /* ZZTgFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D191901B86EDCE00F41B86 /* ZZTgFooterView.swift */; };
+		07D191951B86F91E00F41B86 /* 小黄人1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 07D191921B86F91E00F41B86 /* 小黄人1.jpeg */; };
+		07D191961B86F91E00F41B86 /* 小黄人2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 07D191931B86F91E00F41B86 /* 小黄人2.jpeg */; };
+		07D191971B86F91E00F41B86 /* 小黄人3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 07D191941B86F91E00F41B86 /* 小黄人3.jpeg */; };
+		07D191991B86F93A00F41B86 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D191981B86F93A00F41B86 /* ViewController6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,12 @@
 		07B7A51F1B83180B000B81B0 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		07B7A5211B8325FC000B81B0 /* 小黄人Love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小黄人Love.jpg"; sourceTree = "<group>"; };
 		07B7A5221B8325FC000B81B0 /* 小黄人PP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小黄人PP.jpg"; sourceTree = "<group>"; };
+		07D1918A1B86EBC700F41B86 /* ZZTgFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZTgFooterView.xib; sourceTree = "<group>"; };
+		07D191901B86EDCE00F41B86 /* ZZTgFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTgFooterView.swift; sourceTree = "<group>"; };
+		07D191921B86F91E00F41B86 /* 小黄人1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小黄人1.jpeg"; sourceTree = "<group>"; };
+		07D191931B86F91E00F41B86 /* 小黄人2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小黄人2.jpeg"; sourceTree = "<group>"; };
+		07D191941B86F91E00F41B86 /* 小黄人3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小黄人3.jpeg"; sourceTree = "<group>"; };
+		07D191981B86F93A00F41B86 /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,9 @@
 		0777E74D1B81AD7700154E47 /* Hello Swift */ = {
 			isa = PBXGroup;
 			children = (
+				07D191921B86F91E00F41B86 /* 小黄人1.jpeg */,
+				07D191931B86F91E00F41B86 /* 小黄人2.jpeg */,
+				07D191941B86F91E00F41B86 /* 小黄人3.jpeg */,
 				07B7A5211B8325FC000B81B0 /* 小黄人Love.jpg */,
 				07B7A5221B8325FC000B81B0 /* 小黄人PP.jpg */,
 				0777E7501B81AD7700154E47 /* AppDelegate.swift */,
@@ -114,8 +129,11 @@
 				07B7A51F1B83180B000B81B0 /* ViewController3.swift */,
 				070D38971B845DEA0049A819 /* ViewController4.swift */,
 				0759E7571B859EC100DEB7A3 /* ViewController5.swift */,
+				07D191981B86F93A00F41B86 /* ViewController6.swift */,
 				0759E7591B859F4700DEB7A3 /* ZZTgModel.swift */,
 				0759E75B1B85A24900DEB7A3 /* ZZTgCell.xib */,
+				07D1918A1B86EBC700F41B86 /* ZZTgFooterView.xib */,
+				07D191901B86EDCE00F41B86 /* ZZTgFooterView.swift */,
 				0759E75D1B85A47700DEB7A3 /* ZZTgCell.swift */,
 				070D38991B845F500049A819 /* HeroModel.swift */,
 				0777E77A1B81C67D00154E47 /* Model.swift */,
@@ -240,8 +258,12 @@
 				070D389C1B845F720049A819 /* heros.plist in Resources */,
 				0759E75C1B85A24900DEB7A3 /* ZZTgCell.xib in Resources */,
 				0777E75B1B81AD7700154E47 /* LaunchScreen.xib in Resources */,
+				07D1918B1B86EBC700F41B86 /* ZZTgFooterView.xib in Resources */,
+				07D191951B86F91E00F41B86 /* 小黄人1.jpeg in Resources */,
 				07B7A5241B8325FC000B81B0 /* 小黄人PP.jpg in Resources */,
+				07D191971B86F91E00F41B86 /* 小黄人3.jpeg in Resources */,
 				0777E7581B81AD7700154E47 /* Images.xcassets in Resources */,
+				07D191961B86F91E00F41B86 /* 小黄人2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,11 +285,13 @@
 				0777E77D1B81D05D00154E47 /* ViewController2.swift in Sources */,
 				070D389A1B845F500049A819 /* HeroModel.swift in Sources */,
 				070D38981B845DEA0049A819 /* ViewController4.swift in Sources */,
+				07D191911B86EDCE00F41B86 /* ZZTgFooterView.swift in Sources */,
 				0777E7791B81C66800154E47 /* ViewController1.swift in Sources */,
 				0759E7581B859EC100DEB7A3 /* ViewController5.swift in Sources */,
 				07B7A5201B83180B000B81B0 /* ViewController3.swift in Sources */,
 				0777E7531B81AD7700154E47 /* ViewController.swift in Sources */,
 				0777E7511B81AD7700154E47 /* AppDelegate.swift in Sources */,
+				07D191991B86F93A00F41B86 /* ViewController6.swift in Sources */,
 				0759E75A1B859F4700DEB7A3 /* ZZTgModel.swift in Sources */,
 				0777E77B1B81C67D00154E47 /* Model.swift in Sources */,
 			);

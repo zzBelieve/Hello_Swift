@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewController5: UIViewController,UITableViewDataSource,UITableViewDelegate {
+class ViewController5: UIViewController,UITableViewDataSource,UITableViewDelegate,ZZTgFootViewDelegate{
 
     lazy var tgArray: NSMutableArray = ZZTgModel.tgs()
     
+    var zzTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,18 @@ class ViewController5: UIViewController,UITableViewDataSource,UITableViewDelegat
         zzTableView.dataSource = self
         zzTableView.delegate = self
         zzTableView.rowHeight = 120
+        self.zzTableView = zzTableView
         self.view.addSubview(zzTableView)
+        
+        
+        
+        
+        /*footerView*/
+        
+        
+        let footView = ZZTgFooterView .footView()
+        footView.delagate = self
+        zzTableView.tableFooterView = footView
     }
 
     
@@ -47,6 +59,40 @@ class ViewController5: UIViewController,UITableViewDataSource,UITableViewDelegat
         return cell
     }
     
+    
+    /***ZZTgFooterViewDelegate*****/
+    
+    
+    func tgFooterViewDidDownloadButtonClick(footview : ZZTgFooterView) -> (){
+//
+                  println("加载中~~")
+//
+//        
+                /*模拟延迟*/
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (Int64)(2 * NSEC_PER_SEC)), dispatch_get_main_queue()){
+        
+        
+                    let dic : [String : String] = ["title":"军哥海天浴场","icon": "小黄人Love.jpg", "price": "88888", "buyCount": "250"]
+        
+                    let tg: ZZTgModel = ZZTgModel.tgWithDictionary(dic)
+        
+                    self.tgArray .addObject(tg)
+        
+        
+                    let zzPath: NSIndexPath = NSIndexPath(forRow: self.tgArray.count-1, inSection: 0)
+        
+        
+                    self.zzTableView .insertRowsAtIndexPaths([zzPath], withRowAnimation: UITableViewRowAnimation.Bottom)
+                   
+                    footview .endReFresh()
+                
+                }
+//
+//        
+//        
+//    
+//    
+    }
     
     
     override func didReceiveMemoryWarning() {
