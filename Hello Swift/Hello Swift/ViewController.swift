@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
 
-    var dataList = ["列表展示(Header Footer)","tableView操作(插入,增加)","ScrollView","LOL _ Heros ","团购 XIB ","图片轮播"]
+    var dataList = ["列表展示(Header Footer)","tableView操作(插入,增加)","ScrollView","LOL _ Heros ","团购 XIB ","图片轮播","汽车品牌展示"]
     
     
     
@@ -53,13 +53,15 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
+        let titile: NSString = self.dataList[indexPath.row]
+        
         switch indexPath.row {
         
             
         case 0 :
             
             let vc1 = ViewController1();
-            vc1.title = "Header Footer"
+            vc1.title = titile as String
             self.navigationController?.pushViewController(vc1, animated: true)
             
             
@@ -68,12 +70,13 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
             
                 let vc2 = ViewController2();
-            self.navigationController?.pushViewController(vc2, animated: true)
+                vc2.title = titile as String
+                self.navigationController?.pushViewController(vc2, animated: true)
             
             case 2 :
             
-                let vc3 = ViewController3();
-            
+             let vc3 = ViewController3();
+            vc3.title = titile as String
             self.navigationController?.pushViewController(vc3, animated: true)
             
             case 3 :
@@ -81,21 +84,30 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                 
             
                 let vc4 = ViewController4();
-                
+                vc4.title = titile as String
                 self.navigationController?.pushViewController(vc4, animated: true)
             
             case 4 :
                 
                 
                 let vc5 = ViewController5();
-                
+                vc5.title = titile as String
                 self.navigationController?.pushViewController(vc5, animated: true)
             case 5 :
             
             
             let vc6 = ViewController6();
-            
+            vc6.title = titile as String
             self.navigationController?.pushViewController(vc6, animated: true)
+            
+            case 6 :
+            
+            
+            let vc7 = ViewController7();
+            vc7.title = titile as String
+            self.navigationController?.pushViewController(vc7, animated: true)
+            
+            
         default: println("11")
         
         }

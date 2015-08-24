@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070B7C041B8AF41E003FCDFB /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B7C031B8AF41E003FCDFB /* ViewController7.swift */; };
+		070B7C061B8AFC08003FCDFB /* ZZCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B7C051B8AFC08003FCDFB /* ZZCar.swift */; };
+		070B7C081B8AFE46003FCDFB /* ZZCargruop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B7C071B8AFE46003FCDFB /* ZZCargruop.swift */; };
+		070B7C0A1B8AFE9F003FCDFB /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 070B7C091B8AFE9F003FCDFB /* cars_total.plist */; };
 		070D38981B845DEA0049A819 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D38971B845DEA0049A819 /* ViewController4.swift */; };
 		070D389A1B845F500049A819 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D38991B845F500049A819 /* HeroModel.swift */; };
 		070D389C1B845F720049A819 /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 070D389B1B845F720049A819 /* heros.plist */; };
@@ -46,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070B7C031B8AF41E003FCDFB /* ViewController7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		070B7C051B8AFC08003FCDFB /* ZZCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZCar.swift; sourceTree = "<group>"; };
+		070B7C071B8AFE46003FCDFB /* ZZCargruop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZCargruop.swift; sourceTree = "<group>"; };
+		070B7C091B8AFE9F003FCDFB /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
 		070D38971B845DEA0049A819 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		070D38991B845F500049A819 /* HeroModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
 		070D389B1B845F720049A819 /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
@@ -130,6 +138,9 @@
 				070D38971B845DEA0049A819 /* ViewController4.swift */,
 				0759E7571B859EC100DEB7A3 /* ViewController5.swift */,
 				07D191981B86F93A00F41B86 /* ViewController6.swift */,
+				070B7C031B8AF41E003FCDFB /* ViewController7.swift */,
+				070B7C051B8AFC08003FCDFB /* ZZCar.swift */,
+				070B7C071B8AFE46003FCDFB /* ZZCargruop.swift */,
 				0759E7591B859F4700DEB7A3 /* ZZTgModel.swift */,
 				0759E75B1B85A24900DEB7A3 /* ZZTgCell.xib */,
 				07D1918A1B86EBC700F41B86 /* ZZTgFooterView.xib */,
@@ -148,6 +159,7 @@
 		0777E74E1B81AD7700154E47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				070B7C091B8AFE9F003FCDFB /* cars_total.plist */,
 				0759E7551B859E5D00DEB7A3 /* tgs.plist */,
 				070D389B1B845F720049A819 /* heros.plist */,
 				0777E74F1B81AD7700154E47 /* Info.plist */,
@@ -256,6 +268,7 @@
 				0777E7561B81AD7700154E47 /* Main.storyboard in Resources */,
 				07B7A5231B8325FC000B81B0 /* 小黄人Love.jpg in Resources */,
 				070D389C1B845F720049A819 /* heros.plist in Resources */,
+				070B7C0A1B8AFE9F003FCDFB /* cars_total.plist in Resources */,
 				0759E75C1B85A24900DEB7A3 /* ZZTgCell.xib in Resources */,
 				0777E75B1B81AD7700154E47 /* LaunchScreen.xib in Resources */,
 				07D1918B1B86EBC700F41B86 /* ZZTgFooterView.xib in Resources */,
@@ -281,8 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070B7C041B8AF41E003FCDFB /* ViewController7.swift in Sources */,
 				0759E75E1B85A47700DEB7A3 /* ZZTgCell.swift in Sources */,
+				070B7C081B8AFE46003FCDFB /* ZZCargruop.swift in Sources */,
 				0777E77D1B81D05D00154E47 /* ViewController2.swift in Sources */,
+				070B7C061B8AFC08003FCDFB /* ZZCar.swift in Sources */,
 				070D389A1B845F500049A819 /* HeroModel.swift in Sources */,
 				070D38981B845DEA0049A819 /* ViewController4.swift in Sources */,
 				07D191911B86EDCE00F41B86 /* ZZTgFooterView.swift in Sources */,
